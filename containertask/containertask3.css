@@ -90,6 +90,8 @@ nav ul li {
 footer { 
     background-color: #b38bff;  
     padding: 20px; 
+    display: flex;
+    flex-direction: column;
     /* STUDENT TASK: Initialize flex and stack elements */ 
 } 
 
@@ -105,6 +107,8 @@ footer ul {
     color: white; 
     padding: 10px 40px; 
     margin-top: 20px; 
+    margin-left: 450px;
     border: 1px solid #777; 
     text-align: center;
+    width: 30%;
 } 
