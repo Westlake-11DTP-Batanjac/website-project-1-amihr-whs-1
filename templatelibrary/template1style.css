@@ -67,9 +67,16 @@ footer {
     background-color: #000C1A;
     display: flex;
     justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 footer ul {
     color: aliceblue;
     list-style: none;
+}
+
+footer ul li {
+    padding-top: 15px;
+    font-size: 20px;
 }
