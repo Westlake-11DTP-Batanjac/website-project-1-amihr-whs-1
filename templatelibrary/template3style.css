@@ -4,5 +4,31 @@ html {
 }
 
 body {
-    margin: 0px;
+    margin: 0px;'
+}
+
+header {
+    background-color: #D1B900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header #logo {
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+header ul {
+    margin-left: 25px;
+    width: max-width;
+    display: flex;
+    justify-content: space-evenly;
 }
