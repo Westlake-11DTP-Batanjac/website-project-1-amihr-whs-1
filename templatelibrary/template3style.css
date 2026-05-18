@@ -8,11 +8,12 @@ body {
 }
 
 header {
-    background-color: #D1B900;
+    background-color: #1A1700;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
     align-items: center;
+    color: white;
 }
 
 header #logo {
@@ -28,27 +29,43 @@ header h1 {
 
 header ul {
     margin-left: 25px;
-    width: max-width;
+    list-style: none;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
 }
 
 #content1 {
-    background-color: #FFF18A;
+    background-color: #FFF7B8;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-#content1 img {
+#content1 #heading {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content1 #image {
+    width: 50%;
+}
+
+#content1 #heading h2 {
+    font-size: 50px;
+}
+
+#content1 #image img {
+    width: 100%;
 }
 
 #content2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #content2 img {
@@ -61,15 +78,17 @@ header ul {
     text-align: center;
     margin-bottom: 10px;
     font-size: 18px;
+    width: 50%;
 }
 
 footer {
     background-color: #1A1700;
-    padding-top: 40px;
-    padding-bottom: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 footer ul {
@@ -81,7 +100,11 @@ footer ul {
 }
 
 footer img {
-    width: 70px;
-    height: 70px;
+    width: 175px;
+    height: 175px;
     border-radius: 25px;
+}
+
+footer ul li {
+    margin-bottom: 10px;
 }
