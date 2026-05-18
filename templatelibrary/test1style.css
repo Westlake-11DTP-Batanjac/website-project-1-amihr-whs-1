@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C7E6F0;
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #2C89A5;
+    display: flex;
+}
+
+header img {
+    margin-left: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+header h1 {
+    margin-left: 30px;
+    color: #EBF6FA;
+    text-shadow: 6px 5px #0F2F38;
+}
